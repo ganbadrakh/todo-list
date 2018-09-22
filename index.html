@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Javascript + DOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+
+<body class="d-flex flex-column justify-content-center">
+    <div class="container text-center">
+        <div class="jumbotron">
+            <h1 class="display-5">To-Do List</h1>
+            <p class="lead">This small "To-Do List" application is designed to show you how to manipulate DOM with Javascript.</p>
+            <hr class="my-4">
+            <p>In addition it shows some use possibilities of Bootstrap.</p>
+            <a class="btn btn-primary btn-lg" href="#userinput" role="button">Enter some To-Do</a>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <div class="input-group mb-3">
+                    <input id="userinput" type="text" class="form-control" placeholder="Enter To-Dos" aria-label="To-Dos"
+                        aria-describedby="enter">
+                    <div class="input-group-append">
+                        <button class="btn btn-success" type="button" id="enter">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6 mx-auto">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex align-items-center">DOM</li>
+                    <li class="list-group-item d-flex align-items-center">JavaScript</li>
+                    <li class="list-group-item d-flex align-items-center">Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.done {
+    text-decoration: line-through;
+  }
+
+.deleteBtn {
+  margin-left: 10px;
+}  
+
+body {
+  background-color: grey;
+}
